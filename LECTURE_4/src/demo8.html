@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="output.css">
     <title>Landing_page</title>
-</head>
-<body>
+    <link href="./output.css" rel="stylesheet"> <!-- Your custom CSS file -->
+
     
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="mx-20 my-1">
+
+    <div class="flex border-gray-200 mx-auto px-4 py-1 border rounded-lg">
+
+        
+        <div class="mr-5 overflow-hidden">
+            <img class="mt-5 rounded-lg w-full h-auto object-cover" src="./assets/product14.jpg" alt="Product Image">
+
+            <div class="flex justify-center space-x-4 mb-5">
+                <button class="bg-gray-900 hover:bg-gray-600 px-4 py-2 rounded-full font-bold text-white">Add to
+                    Cart</button>
+                <button class="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full font-bold text-gray-800">Add to
+                    Wishlist</button>
+            </div>
+        </div>
+
+        
+        <div class="p-4 rounded-lg w-[600px]">
+            <h1 class="font-bold text-3xl text-black">Sports t-shirt</h1>
+            <p class="mt-2 text-gray-600 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ante justo. Integer euismod libero id
+                mauris malesuada tincidunt.</p>
+
+            <div class="flex flex-row">
+                <div class="flex items-center mt-4">
+                    <h3 class="font-bold text-xl">Price:</h3>
+                    <span class="ml-2">$29.99</span>
+                </div>
+
+                <div class="flex items-center mt-2 ml-5">
+                    <h3 class="font-bold text-xl">Availability:</h3>
+                    <span class="ml-2">In Stock</span>
+                </div>
+            </div>
+
+            
+            <div class="mt-4">
+                <h2 class="font-bold text-xl">Select Color:</h2>
+                <div class="space-x-2 mt-2">
+                    <i class="text-black fa-circle fas"></i>
+                    <i class="text-red-600 fa-circle fas"></i>
+                    <i class="text-blue-700 fa-circle fas"></i>
+                    <i class="text-yellow-400 fa-circle fas"></i>
+                </div>
+            </div>
+
+            
+            <div class="mt-4">
+                <h2 class="font-bold text-xl">Select Size:</h2>
+                <div class="space-x-2 mt-2">
+                    <button
+                        class="bg-gray-400 hover:bg-indigo-400 px-4 py-2 rounded-full font-bold text-black text-sm">S</button>
+                    <button
+                        class="bg-gray-400 hover:bg-indigo-400 px-4 py-2 rounded-full font-bold text-black text-sm">M</button>
+                    <button
+                        class="bg-gray-400 hover:bg-indigo-400 px-4 py-2 rounded-full font-bold text-black text-sm">L</button>
+                    <button
+                        class="bg-gray-400 hover:bg-indigo-400 px-4 py-2 rounded-full font-bold text-black text-sm">XL</button>
+                    <button
+                        class="bg-gray-400 hover:bg-indigo-400 px-4 py-2 rounded-full font-bold text-black text-sm">XXL</button>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h2 class="font-bold text-xl">Product Description:</h2>
+                <p class="mt-2 text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    sed ante justo. Integer euismod libero id mauris malesuada tincidunt. Vivamus commodo nulla ut
+                    lorem rhoncus aliquet. Duis dapibus augue vel ipsum pretium, et venenatis sem blandit. Quisque
+                    ut erat vitae nisi ultrices placerat non eget velit. Integer ornare mi sed ipsum lacinia, non
+                    sagittis mauris blandit.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
